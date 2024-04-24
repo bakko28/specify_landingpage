@@ -156,6 +156,7 @@ main .page1scroll-box img {
 .lovedby-box .social-links {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 240px;
 }
 
 footer {
@@ -241,5 +242,211 @@ footer .lastinfofooter-box a {
 footer .lastinfofooter-box p {
     color: rgba(255, 255, 255, 0.50);
 }
+
+.takingtokensbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.takingtokensbox .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.takingtokensbox .textbox p:nth-child(1) {
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.takingtokensbox .textbox p:nth-child(2) {
+    text-align: center;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.takingtokensbox .textbox .btnbox button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.takingtokensbox .textbox .btnbox button:nth-child(1) {
+    background-color: #624DE3;
+    margin-right: 16px;
+}
+
+.takingtokensbox .infobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.takingtokensbox .infobox .textbox {
+    width: 400px;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.takingtokensbox .infobox .textbox .card {
+    text-align: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+.takingtokensbox .infobox .textbox .card p:nth-child(1) {
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.takingtokensbox .infobox .textbox .card p:nth-child(2) {
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.80);
+    margin-bottom: 0px;
+}
+
+.takingtokensbox .infobox .textbox .card p:nth-child(1) i{
+    margin: 0px;
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.takingtokensbox .infobox .textbox .card:nth-child(2) {
+    border-bottom: 2px rgba(255, 255, 255, 0.10) solid;
+    border-top: 2px rgba(255, 255, 255, 0.10) solid;
+}
+
+.takingtokensbox .infobox .textbox .card:nth-child(1) p:nth-child(1) {
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8673FD;
+    margin-bottom: 4px;
+}
+
+.takingtokensbox .infobox .textbox .card:nth-child(1) p:nth-child(1) i{
+    margin: 0px;
+    margin-right: 8px;
+    color: #8673FD;
+}
+
+.sliderbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sliderbox .infobox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.sliderbox .circlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderbox .circlebox i{
+    font-size: 12px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 140px;
+}
+
+.sliderbox .circlebox i:nth-child(3) {
+    color: #fff;
+}
+
+.trustedbybox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.trustedbybox .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.trustedbybox .textbox p:nth-child(1) {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.trustedbybox .textbox p:nth-child(2) {
+    text-align: center;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.trustedbybox .textbox .btnbox button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.trustedbybox .textbox .btnbox button:nth-child(1) {
+    background-color: #624DE3;
+    margin-right: 16px;
+}
+
+.trustedbybox .infobox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trustedbybox .infobox img:nth-child(1) {
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+}
+
+.trustedbybox .infobox img:nth-child(2) {
+    position: relative;
+    width: 130%;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+
 
 
